@@ -1,4 +1,40 @@
+*::before{
+  margin:0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #FF3EB5;
+}
+
+i{
+  color:#9595D2;
+}
+
 .nav{
   font-family: 'Roboto', sans-serif;
+  background-color: #6244BB;
+}
+
+.nav-text{
+  color: #FF3EB5;
+}
+
+.nav-title{
+  font-size: 50px;
+}
+
+.nav-list{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  padding-top: 15px;
+  float: left;
+}
+
+.nav-item{
+  display: inline;
+  padding: 50px 10px 50px 10px;
 }
 
