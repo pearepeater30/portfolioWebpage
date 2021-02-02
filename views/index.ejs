@@ -1,8 +1,21 @@
 <%- include('includes/head.ejs') %> 
+<link rel="stylesheet" href="stylesheets/index.css" />
   </head>
-  <body>
+  <body class = "page-body">
     <%- include('includes/navigation.ejs') %> 
-    <h1><%= title %></h1>
-    <a>Welcome to <%= title %></a>
+    <div class="container">
+      <div class="title-card">
+        <h1>
+          Ohayo!
+        </h1>
+      </div>
+      <div class="card">
+        <img src="images/profile_pic.jpg" class="img-class">
+        <span class = "description">
+          Ohayo!
+        </span>
+      </div>
+    </div>
+    
   </body>
 </html>
