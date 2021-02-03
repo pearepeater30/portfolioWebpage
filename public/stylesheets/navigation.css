@@ -22,19 +22,20 @@ i{
 }
 
 .nav-title{
+  padding-top: 5px;
   font-size: 50px;
 }
 
 .nav-list{
-  display: inline;
-  list-style-type: none;
+  list-style: none;
   padding-right: 20px;
   padding-top: 30px;
   float: left;
+  text-align: center;
 }
 
 .nav-item{
-  display: inline;
-  padding: 50px 10px 50px 10px;
+  display: inline-block;
+  padding-right: 25px;
 }
 
